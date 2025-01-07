@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Tabless",
+    "description": "Managing tabs made easy",
+    "version": "1.0.0",
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "web_accessable_resources": [
+        {
+            "resources": [
+                "securityTips.json"
+            ]
+        }
+    ]
+}

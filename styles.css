@@ -1,0 +1,31 @@
+:root {
+    --primary-color: blue;
+    --secondary-color: rgb(25, 25, 80);
+    --ternary-color: rgb(110, 110, 111);
+}
+
+body {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+}
+
+.selector {
+    overflow-x: scroll;
+    scrollbar-color: none;
+}
+
+th {
+    padding: 0 2rem;
+
+}
